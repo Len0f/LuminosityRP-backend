@@ -14,6 +14,7 @@ app.use(
   cors({
     origin: [
       "https://luminosity-rp-frontend.vercel.app",
+      "https://www.luminosityrp.fr", "https://luminosityrp.fr"
     ],
     credentials: true,
   }),
